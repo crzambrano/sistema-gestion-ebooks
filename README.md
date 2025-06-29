@@ -34,4 +34,10 @@ go run ./cmd/server
 ```
 
 ## Visualización del futuro
-En la fase siguiente, de ser posible, se migrará la persistencia a PostgreSQL y se implementarán mejoras para avanzar 
+En la fase siguiente, de ser posible, se migrará la persistencia a PostgreSQL y se implementarán mejoras para avanzar
+
+Autor
+Cristina Zambrano
+Proyecto académico – Universidad Internacional del Ecuador
+2025
+https://github.com/crzambrano/sistema-gestion-ebooks
