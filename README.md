@@ -8,12 +8,16 @@ Aplicación REST desarrollada en Go 1.22 para registrar, listar, buscar y elimi
 ## Estructura
 ```
 sistema-gestion-ebooks/
-├── cmd/server/        # entrypoint
-├── internal/          # dominio + adaptadores
-├── pkg/storage/       # utilidades de persistencia
-├── data/              # archivos JSON
-└── tests/             # pruebas unitarias
-```
+├── cmd/server/           # Servidor HTTP (main.go)
+├── internal/
+│   ├── book/             # Entidad Book
+│   ├── user/             # Entidad User
+│   ├── auth/             # Autenticación (JWT)
+│   └── handler/          # Handlers y rutas
+├── pkg/storage/          # Persistencia JSON
+├── data/                 # Archivos de datos (libros.json)
+├── tests/                # Pruebas unitarias
+└── README.md```
 
 ## Endpoints (8)
 | Método | Ruta                 | Descripción                      |
