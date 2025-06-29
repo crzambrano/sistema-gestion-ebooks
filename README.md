@@ -1,5 +1,7 @@
 # Sistema de Gestión de Libros Electrónicos
 
+Proyecto desarrollado en Go. Permite registrar, listar, buscar y eliminar libros electrónicos mediante una API REST, con autenticación segura basada en JWT.
+
 Proyecto modificado hasta el 2025-06-29
 
 ## Introducción
