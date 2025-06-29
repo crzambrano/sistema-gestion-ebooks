@@ -1,6 +1,6 @@
 # Sistema de Gestión de Libros Electrónicos
 
-Proyecto integrador – versión 2025-06-29
+Proyecto modificado hasta el 2025-06-29
 
 ## Introducción
 Aplicación REST desarrollada en Go 1.22 para registrar, listar, buscar y eliminar libros electrónicos, con autenticación basada en JWT y persistencia JSON.
@@ -34,4 +34,4 @@ go run ./cmd/server
 ```
 
 ## Visualización del futuro
-En la fase siguiente se migrará la persistencia a PostgreSQL, se containerizará con Docker y se desplegará en Kubernetes con CI/CD GitHub Actions.
+En la fase siguiente, de ser posible, se migrará la persistencia a PostgreSQL y se implementarán mejoras para avanzar 
